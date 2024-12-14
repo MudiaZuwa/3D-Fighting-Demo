@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3DFightingGame</title>
+    
+    
+    <script type="module" crossorigin src="../assets/GamePage-e8b8ec47.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="../assets/index-b74b9157.js">
+    <link rel="stylesheet" href="../assets/index-006191aa.css">
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        <!--Player Health-->
+        <div class="PlayerParent">
+          <div class="Playerhealth"></div>
+          <div class="PlayerChild" style="background-color: yellow"></div>
+          <div class="PlayerChild" id="playerHealth2"></div>
+          <div class="PlayerChild" id="playerHealth1"></div>
+        </div>
+        <!--Timer-->
+        <div class="timer" id="timer">90</div>
+        <!--Enemy Health-->
+        <div class="EnemyParent">
+          <div class="Enemyhealth"></div>
+          <div class="EnemyChild" id="enemyHealth2"></div>
+          <div class="EnemyChild" id="enemyHealth1"></div>
+        </div>
+      </div>
+      <div class="displayText" id="displayText">Tie</div>
+      <div class="MenuScreen" id="MenuScreen">
+        <div class="options">
+          <span class="option" id="Resume">Resume</span>
+          <span class="option" id="Restart">Restart</span>
+          <span class="option" id="Characters">New Characters</span>
+          <span class="option" id="Menu">Main Menu</span>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="accept">Punch[J][2]</div>
+        <div class="back">Kick[L][3]</div>
+      </div>
+    </div>
+    <div id="loadingScreen">
+      <div class="text">3D FIGHTING GAME</div>
+      <div class="progressBars">
+        <div class="left progressParent">
+          <div class="progressContainer"></div>
+          <div class="progressBar" id="leftBar"></div>
+        </div>
+        <div class="right progressParent">
+          <div class="progressContainer"></div>
+          <div class="progressBar" id="rightBar"></div>
+        </div>
+      </div>
+    </div>
+    <audio
+      style="display: none"
+      loop
+      id="backgroundAudio"
+      src="../resources/Audios/street-fight-115554.mp3"
+    /><audio
+      style="display: none"
+      id="miscAudio"
+      src="../resources/Audios/menu-button-88360.mp3"
+    /><audio
+      style="display: none"
+      id="player1Audio"
+      src="../resources/Audios/menu-button-88360.mp3"
+    /><audio
+      style="display: none"
+      id="player2Audio"
+      src="../resources/Audios/menu-button-88360.mp3"
+    />
+  </body>
+</html>
