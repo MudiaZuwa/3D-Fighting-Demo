@@ -1,0 +1,87 @@
+{
+  "model": "../../resources/Characters/Chad/Ch16_nonPBR.fbx",
+  "scale": 2.3,
+  "cannonBodies": {
+    "head": {
+      "shape": "Sphere",
+      "size": "30",
+      "offsetX": "10",
+      "offsetY": "25"
+    },
+    "torso": {
+      "shape": "Cylinder",
+      "top": "38",
+      "bottom": "38",
+      "height": "120",
+      "offsetY": "30"
+    },
+    "leftHand": {
+      "shape": "Sphere",
+      "size": "20"
+    },
+    "rightHand": {
+      "shape": "Sphere",
+      "size": "20"
+    },
+    "leftFoot": {
+      "shape": "Sphere",
+      "size": "35",
+      "offsetX": "12"
+    },
+    "rightFoot": {
+      "shape": "Sphere",
+      "size": "35",
+      "offsetX": "12"
+    }
+  },
+  "animations": [
+    {
+      "name": "Idle",
+      "src": "../../resources/Characters/Chad/Animations/Idle.fbx"
+    },
+    {
+      "name": "Walk",
+      "src": "../../resources/Characters/Chad/Animations/Walking.fbx"
+    },
+    {
+      "name": "Walk-Backwards",
+      "src": "../../resources/Characters/Chad/Animations/Walking BackWards.fbx"
+    },
+    {
+      "name": "Crouched",
+      "src": "../../resources/Characters/Chad/Animations/Male Crouch Pose.fbx"
+    },
+    {
+      "name": "Jump",
+      "src": "../../resources/Characters/Chad/Animations/Jumping.fbx"
+    },
+    {
+      "name": "Pick",
+      "src": "../../resources/Characters/Chad/Animations/Throw Object.fbx"
+    },
+    {
+      "name": "Punch1",
+      "src": "../../resources/Characters/Chad/Animations/Punching.fbx"
+    },
+    {
+      "name": "Punch2",
+      "src": "../../resources/Characters/Chad/Animations/Punching1.fbx"
+    },
+    {
+      "name": "Punch3",
+      "src": "../../resources/Characters/Chad/Animations/Cross Punch.fbx"
+    },
+    {
+      "name": "Kick1",
+      "src": "../../resources/Characters/Chad/Animations/Mma Kick.fbx"
+    },
+    {
+      "name": "Kick2",
+      "src": "../../resources/Characters/Chad/Animations/Mma Kick1.fbx"
+    },
+    {
+      "name": "Kick3",
+      "src": "../../resources/Characters/Chad/Animations/Mma Kick2.fbx"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "model": "../../resources/Characters/Swat/Swat.fbx",
+  "scale": 2.3,
+  "cannonBodies": {
+    "head": {
+      "shape": "Sphere",
+      "size": "30",
+      "offsetX": "10",
+      "offsetY": "25"
+    },
+    "torso": {
+      "shape": "Cylinder",
+      "top": "38",
+      "bottom": "38",
+      "height": "120",
+      "offsetY": "30"
+    },
+    "leftHand": {
+      "shape": "Sphere",
+      "size": "20"
+    },
+    "rightHand": {
+      "shape": "Sphere",
+      "size": "20"
+    },
+    "leftFoot": {
+      "shape": "Sphere",
+      "size": "35",
+      "offsetX": "12"
+    },
+    "rightFoot": {
+      "shape": "Sphere",
+      "size": "35",
+      "offsetX": "12"
+    }
+  },
+  "animations": [
+    {
+      "name": "Idle",
+      "src": "../../resources/Characters/Swat/Animations/Idle.fbx"
+    },
+    {
+      "name": "Walk",
+      "src": "../../resources/Characters/Swat/Animations/Walking.fbx"
+    },
+    {
+      "name": "Walk-Backwards",
+      "src": "../../resources/Characters/Swat/Animations/Walking BackWards.fbx"
+    },
+    {
+      "name": "Step-Forward",
+      "src": "../../resources/Characters/Swat/Animations/Long Step Forward.fbx"
+    },
+    {
+      "name": "Step-Backward",
+      "src": "../../resources/Characters/Swat/Animations/Step BackWard.fbx"
+    },
+    {
+      "name": "Crouched",
+      "src": "../../resources/Characters/Swat/Animations/Crouching Idle.fbx"
+    },
+    {
+      "name": "Jump",
+      "src": "../../resources/Characters/Swat/Animations/Jump.fbx"
+    },
+    {
+      "name": "Pick",
+      "src": "../../resources/Characters/Swat/Animations/Throw Object.fbx"
+    },
+    {
+      "name": "Punch1",
+      "src": "../../resources/Characters/Swat/Animations/Punching.fbx"
+    },
+    {
+      "name": "Punch2",
+      "src": "../../resources/Characters/Swat/Animations/Punching1.fbx"
+    },
+    {
+      "name": "Punch3",
+      "src": "../../resources/Characters/Swat/Animations/Cross Punch.fbx"
+    },
+    {
+      "name": "Kick1",
+      "src": "../../resources/Characters/Swat/Animations/Side Kick.fbx"
+    },
+    {
+      "name": "Kick2",
+      "src": "../../resources/Characters/Swat/Animations/Side Kick1.fbx"
+    },
+    {
+      "name": "Kick3",
+      "src": "../../resources/Characters/Swat/Animations/Roundhouse Kick.fbx"
+    },
+    {
+      "name": "Light-HeadHit",
+      "src": "../../resources/Characters/Swat/Animations/Head Hit.fbx"
+    },
+    {
+      "name": "Heavy-HeadHit",
+      "src": "../../resources/Characters/Swat/Animations/Big Hit To Head.fbx"
+    },
+    {
+      "name": "Light-TorsoHit",
+      "src": "../../resources/Characters/Swat/Animations/Stomach Hit.fbx"
+    },
+    {
+      "name": "Heavy-TorsoHit",
+      "src": "../../resources/Characters/Swat/Animations/Hit To Body.fbx"
+    },
+    {
+      "name": "KnockOut",
+      "src": "../../resources/Characters/Swat/Animations/Knocked Out.fbx"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "model": "../../resources/Characters/Eve/Eve.fbx",
+  "scale": 3,
+  "cannonBodies": {
+    "head": {
+      "shape": "Sphere",
+      "size": "30",
+      "offsetX": "10",
+      "offsetY": "25"
+    },
+    "torso": {
+      "shape": "Cylinder",
+      "top": "30",
+      "bottom": "30",
+      "height": "100",
+      "offsetY": "30"
+    },
+    "leftHand": {
+      "shape": "Sphere",
+      "size": "20"
+    },
+    "rightHand": {
+      "shape": "Sphere",
+      "size": "20"
+    },
+    "leftFoot": {
+      "shape": "Sphere",
+      "size": "35",
+      "offsetX": "12"
+    },
+    "rightFoot": {
+      "shape": "Sphere",
+      "size": "35",
+      "offsetX": "12"
+    }
+  },
+  "animations": [
+    {
+      "name": "Idle",
+      "src": "../../resources/Characters/Eve/Animations/Ninja Idle.fbx"
+    },
+    {
+      "name": "Walk",
+      "src": "../../resources/Characters/Eve/Animations/Walking.fbx"
+    },
+    {
+      "name": "Walk-Backwards",
+      "src": "../../resources/Characters/Eve/Animations/Walking BackWards.fbx"
+    },
+    {
+      "name": "Crouched",
+      "src": "../../resources/Characters/Eve/Animations/Female Crouch Pose.fbx"
+    },
+    {
+      "name": "Jump",
+      "src": "../../resources/Characters/Eve/Animations/Jumping.fbx"
+    },
+    {
+      "name": "Pick",
+      "src": "../../resources/Characters/Eve/Animations/Throw Object.fbx"
+    },
+    {
+      "name": "Punch1",
+      "src": "../../resources/Characters/Eve/Animations/Punching.fbx"
+    },
+    {
+      "name": "Punch2",
+      "src": "../../resources/Characters/Eve/Animations/Punching1.fbx"
+    },
+    {
+      "name": "Punch3",
+      "src": "../../resources/Characters/Eve/Animations/Jab to Elbow Punch.fbx"
+    },
+    {
+      "name": "Kick1",
+      "src": "../../resources/Characters/Eve/Animations/Mma Kick.fbx"
+    },
+    {
+      "name": "Kick2",
+      "src": "../../resources/Characters/Eve/Animations/Mma Kick1.fbx"
+    },
+    {
+      "name": "Kick3",
+      "src": "../../resources/Characters/Eve/Animations/Mma Kick2.fbx"
+    },
+    {
+      "name": "Light-HeadHit",
+      "src": "../../resources/Characters/Eve/Animations/Head Hit.fbx"
+    },
+    {
+      "name": "Heavy-HeadHit",
+      "src": "../../resources/Characters/Eve/Animations/Head Hit1.fbx"
+    },
+    {
+      "name": "Light-TorsoHit",
+      "src": "../../resources/Characters/Eve/Animations/Stomach Hit.fbx"
+    },
+    {
+      "name": "Heavy-TorsoHit",
+      "src": "../../resources/Characters/Eve/Animations/Hit To Body.fbx"
+    },
+    {
+      "name": "KnockOut",
+      "src": "../../resources/Characters/Eve/Animations/Falling Back Death.fbx"
+    }
+  ]
+}
