@@ -1,1 +1,186 @@
-@font-face{font-family:PressStart2P;src:url(./PressStart2P-Regular-8d0248e4.ttf)}*{box-sizing:border-box;font-family:PressStart2P;padding:0;margin:0;color:#fff;-webkit-user-select:none;-ms-user-select:none;user-select:none}.parent{position:relative;display:none}.child{position:absolute;display:flex;width:100%;align-items:center;padding:20px}.EnemyParent{position:relative;width:100%;border-top:2px solid white;border-bottom:2px solid white;border-right:2px solid white;border-radius:0 50px 0 0}.EnemyChild{position:absolute;top:0;left:0;right:0;bottom:0;background-color:#818cf8;border-radius:0 50px 0 0}#enemyHealth2,#playerHealth2{background-color:red}.Enemyhealth{background-color:#ff0;height:30px;border-radius:0 50px 0 0}.PlayerParent{position:relative;width:100%;display:flex;justify-content:flex-end;border-top:2px solid white;border-bottom:2px solid white;border-left:2px solid white;border-radius:50px 0 0}.PlayerChild{position:absolute;background-color:#818cf8;top:0;right:0;bottom:0;width:100%;border-radius:50px 0 0}.Playerhealth{background-color:red;height:30px;width:100%;border-radius:50px 0 0}.timer{background-color:#000;width:100px;height:50px;color:#fff;flex-shrink:0;display:flex;align-items:center;justify-content:center;border:4px solid white}.displayText{position:absolute;color:#fff;align-items:center;justify-content:center;top:0;left:0;right:0;bottom:0;display:none}.bottom{position:absolute;display:flex;bottom:0;right:0;font-size:.7rem;gap:.5rem;color:#333}#loadingScreen{width:100%;height:100vh;background-image:url(./negx-b29bbd85.jpg);background-size:100% 99.9%;display:flex;justify-content:center;align-items:center;flex-direction:column}.text{font-size:3rem;text-align:center}.progressBars{display:flex;gap:.1rem;width:100%;align-items:center;justify-content:center;padding:0 20px}.progressParent{position:relative;width:30%;border-top:2px solid white;border-bottom:2px solid white}.left{display:flex;justify-content:flex-end;border-left:2px solid white}.right{border-right:2px solid white}.progressContainer{background-color:red;height:5px}.left .progressContainer{width:100%}.progressBar{position:absolute;background-color:#818cf8;top:0;right:0;bottom:0;width:0}.right .progressBar{left:0}.MenuScreen{display:none;position:absolute;width:100%;height:100vh;background-color:#af664cc0;opacity:70%}.options{position:absolute;width:100%;display:flex;margin-bottom:60px;align-items:center;justify-content:space-between;bottom:0;font-size:1.5rem;color:#050505;opacity:100%}.option{width:100%;text-align:center;opacity:100%}
+@font-face {
+  font-family: PressStart2P;
+  src: url(./PressStart2P-Regular-8d0248e4.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-family: PressStart2P;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.parent {
+  position: relative;
+  display: none;
+}
+.child {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+.EnemyParent {
+  position: relative;
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-radius: 0 50px 0 0;
+}
+.EnemyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #818cf8;
+  border-radius: 0 50px 0 0;
+}
+#enemyHealth2,
+#playerHealth2 {
+  background-color: red;
+}
+.Enemyhealth {
+  background-color: #ff0;
+  height: 30px;
+  border-radius: 0 50px 0 0;
+}
+.PlayerParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 50px 0 0;
+}
+.PlayerChild {
+  position: absolute;
+  background-color: #818cf8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 50px 0 0;
+}
+.Playerhealth {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+  border-radius: 50px 0 0;
+}
+.timer {
+  background-color: #000;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid white;
+}
+.displayText {
+  position: absolute;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+.bottom {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  right: 0;
+  font-size: 0.7rem;
+  gap: 0.5rem;
+  color: #333;
+}
+#loadingScreen {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./negx-b29bbd85.jpg);
+  background-size: 100% 99.9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  font-size: 3rem;
+  text-align: center;
+}
+.progressBars {
+  display: flex;
+  gap: 0.1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.progressParent {
+  position: relative;
+  width: 30%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.left {
+  display: flex;
+  justify-content: flex-end;
+  border-left: 2px solid white;
+}
+.right {
+  border-right: 2px solid white;
+}
+.progressContainer {
+  background-color: red;
+  height: 5px;
+}
+.left .progressContainer {
+  width: 100%;
+}
+.progressBar {
+  position: absolute;
+  background-color: #818cf8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+}
+.right .progressBar {
+  left: 0;
+}
+.MenuScreen {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #af664cc0;
+  opacity: 70%;
+}
+.options {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  font-size: 1.5rem;
+  color: #050505;
+  opacity: 100%;
+}
+.option {
+  width: 100%;
+  text-align: center;
+  opacity: 100%;
+}
